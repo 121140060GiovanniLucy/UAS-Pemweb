@@ -89,13 +89,21 @@ Local Storage juga digunakan pada website ini dalam hal fitur Dark Mode Switch s
 ### Bagian Bonus: Hosting Aplikasi Web
 
 #### 1. Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
-
+- Membuat akun di 000webhostapp.
+- Menunggah seluruh file proyek ke direktori di proyek 000webhostapp.
+- Buat database dengan nama db_userlist di panel pengelolaan database 000webhostapp.
+- Mengimpor database ke dalam database yang baru dibuat;
+- Menguji fungsionalitas website dengan memastikan registrasi, login, pengeditan pengguna, penghapusan pengguna, dan logout berjalan dengan baik.
 
 #### 2. Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
-
+Penyedia hosting web yang saya pilih adalah 000webhostapp. Hal ini karena 000webhosapp menyediakan opsi hosting gratis, dan memiliki interface yang ramah pengguna. 000webhostapp juga cocok untuk aplikasi berbasis PHP dan menggunakan database MySql. Sebelumnya saya mencoba menghosting lewat github, namun mengalami error terkait file PHP.
 
 #### 3. Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
-
+- Dengan memastikan semua operasi yang melibatkan data dari pengguna divalidasi di sisi server (seperti validasi login, registrasi, dll).
+- Menggunakan prepared statements atau parameterized queries untuk menghindari SQL injections.
+- Menggunakan token CSRF untuk mencegah serangan CSRF.
 
 #### 4. Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
-
+- 000webhostapp mendukung PHP dan MySQL, sehingga aplikasi web yang dibangun dengan teknologi ini dapat dihosting dengan baik di platform ini.
+- 000webhostapp akan mengelola keamanan server secara keseluruhan.
+- Menggunakan  panel kontrol yang disediakan oleh 000webhostapp untuk mengelola konfigurasi dan pengaturan server. 
