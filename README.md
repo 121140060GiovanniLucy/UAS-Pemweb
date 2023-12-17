@@ -1,5 +1,5 @@
 
-# User List
+# User Info
 
 Projek PHP yang menampilkan seluruh user setiap pendaftaran.
 
